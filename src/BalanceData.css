@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+.balance {
+    font-family: 'Grandstander', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.remaining {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.income {
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Grandstander', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: #30e3ca;
+}
+
+.balance-amt {
+    font-weight: 600;
+    font-family: 'Grandstander', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: #161d6f;
+}
+
+.expense {
+    font-weight: 600;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e84545;
+}
+
+.form-data {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline-style: none;
+    border-top: 2px #b8b5ff solid;
+    border-bottom: 2px #b8b5ff solid;
+    border-left: 2px #b8b5ff solid;
+    border-right: 6px #7868e6 solid;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    color: #194350;
+    background-color: #ffc2b4;
+    font-size: larger;
+    font-weight: 700;
+    outline-style: none;
+}
